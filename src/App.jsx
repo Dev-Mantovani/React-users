@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { Title, TopBackground, Container, Form, ContainerInputs, Input, Button, InputLabel } from './styles'
+import UsersImage from './assets/users.png'
 
 function Home() {
 
@@ -10,7 +11,7 @@ function Home() {
       <Container
       >
         <TopBackground>
-          <img />
+        <img src={UsersImage} alt='imagem-usuarios'/>
         </TopBackground>
 
 
