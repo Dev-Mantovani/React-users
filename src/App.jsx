@@ -18,7 +18,6 @@ function Home() {
         <Form>
           <Title>Cadastro de Usuario</Title>
           <ContainerInputs>
-            <div>
               <div>
                 <InputLabel> Nome <span>*</span>
                 </InputLabel>
@@ -30,14 +29,14 @@ function Home() {
                 </InputLabel>
                 <Input type='number' placeholder='Idade do usuário'></Input>
               </div>
-
-              <div>
+          </ContainerInputs>
+              <div style={{width: '100%'}}>
                 <InputLabel> E-mail <span>*</span>
                 </InputLabel>
                 <Input type='email' placeholder='E-mail do usuário'></Input>
               </div>
-            </div>
-          </ContainerInputs>
+            
+          
 
           <Button>Cadastrar Usuario</Button>
         </Form>
